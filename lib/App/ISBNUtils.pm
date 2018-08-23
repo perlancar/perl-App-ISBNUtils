@@ -12,6 +12,12 @@ our %SPEC;
 $SPEC{format_isbn10} = {
     v => 1.1,
     summary => 'Format ISBN 10, print error if number is invalid',
+    description => <<'_',
+
+You can feed an ISBN 13 and it will be converted to ISBN 10 (as long as the ISBN
+13 prefix is 978-).
+
+_
     args => {
         isbn10 => {
             schema => 'isbn10*',
