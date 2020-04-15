@@ -1,3 +1,8 @@
+0.003   2020-04-15  Released-By: PERLANCAR; Urgency: medium
+
+	- Add utilities: parse-amazon-book-page, search-isbn-by-title.
+
+
 0.002   2018-08-23  Released-By: PERLANCAR
 
 	- format-isbn10: Mention that one can convert from ISBN 13 (using
